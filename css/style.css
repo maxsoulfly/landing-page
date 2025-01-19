@@ -29,7 +29,7 @@ p {
 
 /* Links */
 a {
-    color: #007bff;
+    color: #3b82f6;
     text-decoration: none;
 }
 
@@ -42,7 +42,7 @@ a:hover {
 }
 
 .container {
-    max-width: 1080px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 0 1rem;
 }
@@ -123,7 +123,7 @@ main .hero .text p {
 }
 
 main .hero button {
-    background: #007bff;
+    background: #3b82f6;
     color: #f9faf8;
     padding: 0.5rem 1rem;
     border: none;
@@ -165,7 +165,7 @@ main .hero .img {
 
 .info-cards .card img {
     background: #f9faf8;
-    border: #007bff 5px solid;
+    border: #3b82f6 5px solid;
     border-radius: 10%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 1rem;
@@ -198,4 +198,57 @@ main .hero .img {
     font-weight: 900;
     margin-bottom: 1rem;
     text-align: end;
+}
+
+/* cta */
+
+.cta {
+    background: #f9faf8;
+    color: #1f2937;
+    padding: 2rem 0;
+    /* text-align: center; */
+}
+
+.cta .container {
+    background: #3b82f6;
+    color: #f9faf8;
+    padding: 3rem;
+    border-radius: 10px;
+}
+
+.cta .container .cta-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cta .container .cta-content h2 {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+.cta .container .cta-content p {
+    font-size: 1.1rem;
+    margin-bottom: 0;
+    color: #f9faf8;
+}
+
+.cta .container .cta-content button {
+    /* align-self: center; */
+    background: none;
+    color: #f9faf8;
+    padding: 0.5rem 2rem;
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+/* footer */
+
+footer {
+    background: #1f2937;
+    color: #f9faf8;
+    padding: 2rem 0;
+    text-align: center;
 }
